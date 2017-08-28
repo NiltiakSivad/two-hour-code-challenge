@@ -5,12 +5,19 @@
 </template>
 
 <script>
+  import timelineApi from '../api/timeline'
   export default {
     name: 'timeline',
     data () {
       return {
-        msg: 'Welcome to Your Vue.js App'
+        events: []
       }
+    },
+    created () {
+      timelineApi.get((events) => {
+        debugger
+        this.events = events
+      })
     }
   }
 </script>
