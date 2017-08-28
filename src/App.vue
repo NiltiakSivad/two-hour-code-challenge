@@ -20,5 +20,6 @@ export default {
     max-width: 1200px;
     color: #eee9dc;
     background: #cfcfcf;
+    padding: 0 5%;
   }
 </style>
