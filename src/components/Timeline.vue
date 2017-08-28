@@ -23,4 +23,7 @@
 </script>
 
 <style scoped lang="scss">
+  $red: #a82d25;
+  $gray: #48494A;
+  $green: #008D57;
 </style>
